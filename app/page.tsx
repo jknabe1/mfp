@@ -2,112 +2,141 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <main>
+    <section className="bg-white">
+  <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+    <div>
+    <img className="mx-auto mb-4" src="/media/music_for_pennies_logga.png" alt="Music For Pennies"/>
+    </div>
+      <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16 border-b-2 border-gray-900">
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Våra föreningar</h2>
+      </div> 
+      <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          <div className="text-center text-gray-500 dark:text-gray-400">
+              <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/media/stationen.jpg" alt="Stationen"/>
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
+                  <a href="#">Stationen</a>
+              </h3>
+              <ul className="flex justify-center mt-4 space-x-4">
+                  <li>
+                      <a href="#" className="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
+                          <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                      </a>
+                  </li>
+                  
+              </ul>
+          </div>
+          <div className="text-center text-gray-500 dark:text-gray-400">
+              <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/media/SoMe-icon.-org.png" alt="K&K"/>
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
+                  <a href="#">K&K Records</a>
+              </h3>
+              <ul className="flex justify-center mt-4 space-x-4">
+                  <li>
+                      <a href="#" className="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
+                          <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                      </a>
+                  </li>
+                  
+              </ul>
+          </div>
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+          <div className="text-center text-gray-500 dark:text-gray-400">
+              <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/media/indiedep.png" alt="Leslie Avatar"/>
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
+                  <a href="#">Indiedepartementet</a>
+              </h3>
+              <ul className="flex justify-center mt-4 space-x-4">
+                  <li>
+                      <a href="#" className="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
+                          <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                      </a>
+                  </li>
+                  
+              </ul>
+          </div>
+          <div className="text-center text-gray-500 dark:text-gray-400">
+              <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/media/dopfisk.jpg" alt="Michael Avatar"/>
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
+                  <a href="#">Döfisk</a>
+              </h3>
+              <ul className="flex justify-center mt-4 space-x-4">
+                  <li>
+                      <a href="#" className="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
+                          <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                      </a>
+                  </li>
+                  
+              </ul>
+          </div>
+          <div className="text-center text-gray-500 dark:text-gray-400">
+              <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/media/orebrohc.png" alt="Neil Avatar"/>
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
+                  <a href="#">Stationen Hardcore</a>
+              </h3>
+              <ul className="flex justify-center mt-4 space-x-4">
+                  <li>
+                      <a href="#" className="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
+                          <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                      </a>
+                  </li>
+                  
+              </ul>
+          </div>
+      </div>  
+  </div>
+    </section>
+    <section className="bg-white">
+    <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+        <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16 ">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">Våra arrangemang</h2>
+        </div> 
+        <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center items-center">
+    <div className="text-center text-gray-500 dark:text-gray-400">
+        <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/media/op.jpg" alt="Bonnie Avatar"/>
+        <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
+            <a href="#">Örebro Punkfest</a>
+        </h3>
+        <ul className="flex justify-center mt-4 space-x-4">
+            <li>
+                <a href="#" className="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+            <div className="text-center text-gray-500 dark:text-gray-400">
+                <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/media/up.jpg" alt="Helene Avatar"/>
+                <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
+                    <a href="#">Ung & Punk</a>
+                </h3>
+                <ul className="flex justify-center mt-4 space-x-4">
+                    <li>
+                        <a href="#" className="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
+                            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div className="text-center text-gray-500 dark:text-gray-400">
+                <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/media/mono.png" alt="Neil Avatar"/>
+                <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
+                    <a href="#">Klubb Mono</a>
+                </h3>
+                <ul className="flex justify-center mt-4 space-x-4">
+                    <li>
+                        <a href="#" className="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
+                            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>  
+    </div>
+      </section>
+      </main>
   );
 }
