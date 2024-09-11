@@ -10,7 +10,7 @@ export default function Home() {
       <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16 border-b-2 border-gray-900">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Våra föreningar</h2>
       </div> 
-      <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 ">
           <div className="text-center text-gray-500 dark:text-gray-400">
               <img className="mx-auto mb-4 w-36 h-36 rounded-full border-2 border-black" src="/media/stationen.jpg" alt="Stationen"/>
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
@@ -76,7 +76,7 @@ export default function Home() {
           <div className="text-center text-gray-500 dark:text-gray-400">
               <img className="mx-auto mb-4 w-36 h-36 rounded-full border-2 border-black" src="/media/orebrohc.png" alt="Hardcore"/>
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
-                  <a href="https://www.instagram.com/kfstationenhardcore/">Stationen Hardcore</a>
+                  <a href="https://www.instagram.com/kfstationenhardcore/">Örebro Hardcore</a>
               </h3>
               <ul className="flex justify-center mt-4 space-x-4">
                   <li>
@@ -84,7 +84,9 @@ export default function Home() {
                           <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd" /></svg>
                       </a>
                   </li>
-                  
+                  <li className="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
+                        
+                  </li>
               </ul>
           </div>
       </div>  
@@ -92,38 +94,10 @@ export default function Home() {
     </section>
     <section className="bg-white">
     <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-    <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16 border-b-2 border-gray-900">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Våra arrangemang</h2>
-      </div> 
-        <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center items-center">
-    <div className="text-center text-gray-500 dark:text-gray-400">
-        <img className="mx-auto mb-4 w-36 h-36 rounded-full border-2 border-black" src="/media/op.jpg" alt="Punkfesten"/>
-        <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
-            <a href="https://www.facebook.com/orebropunkfest">Örebro Punkfest</a>
-        </h3>
-        <ul className="flex justify-center mt-4 space-x-4">
-            <li>
-                <a href="https://www.facebook.com/orebropunkfest" className="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
-                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd" /></svg>
-                </a>
-            </li>
-            
-        </ul>
-    </div>
-            <div className="text-center text-gray-500 dark:text-gray-400">
-                <img className="mx-auto mb-4 w-36 h-36 rounded-full border-2 border-black" src="/media/up.jpg"  alt="U&?"/>
-                <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
-                    <a href="https://www.facebook.com/ungopunk">Ung & Punk</a>
-                </h3>
-                <ul className="flex justify-center mt-4 space-x-4">
-                    <li>
-                        <a href="https://www.facebook.com/ungopunk" className="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
-                            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd" /></svg>
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
+        <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16 border-b-2 border-gray-900">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Våra arrangemang</h2>
+        </div> 
+        <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3  justify-items-center items-center">
             <div className="text-center text-gray-500 dark:text-gray-400">
                 <img className="mx-auto mb-4 w-36 h-36 rounded-full border-2 border-black" src="/media/mono.png" alt="Mono"/>
                 <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
@@ -135,12 +109,83 @@ export default function Home() {
                             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd" /></svg>
                         </a>
                     </li>
-                    
+                </ul>
+            </div>
+            <div className="text-center text-gray-500 dark:text-gray-400">
+                <img className="mx-auto mb-4 w-36 h-36 rounded-full border-2 border-black" src="/media/op.jpg" alt="Punkfesten"/>
+                <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
+                    <a href="https://www.facebook.com/orebropunkfest">Örebro Punkfest</a>
+                </h3>
+                <ul className="flex justify-center mt-4 space-x-4">
+                    <li>
+                        <a href="https://www.facebook.com/orebropunkfest" className="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
+                            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd" /></svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div className="text-center text-gray-500 dark:text-gray-400">
+                <img className="mx-auto mb-4 w-36 h-36 rounded-full border-2 border-black" src="/media/up.jpg"  alt="U&?"/>
+                <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
+                    <a href="https://www.facebook.com/ungopunk">Ung & Punk</a>
+                </h3>
+                <ul className="flex justify-center mt-4 space-x-4">
+                    <li>
+                        <a href="https://www.facebook.com/ungopunk" className="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
+                            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd" /></svg>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>  
     </div>
-      </section>
+</section>
+      <section className="bg-white">
+      <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+      <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16 border-b-2 border-gray-900">
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Kontakta oss</h2>
+      </div> 		
+      <div className="grid grid-cols-12">
+                        <div className="relative col-span-full row-start-1 row-end-1 min-h-[350px] md:min-h-0 md:col-start-1 md:col-end-7">
+                            <div className="absolute inset-0 overflow-hidden">
+                                <div className="absolute inset-0 transition-transform duration-300 ease-bouncy">
+                                    <h1>
+                                        <span className="font-bold">HQ:</span> <br/>
+                                        Music For Pennies <br/>
+                                        Järnvägsgatan 8 <br/>
+                                        703 62, Örebro
+                                    </h1>
+                                    <h1>
+                                    <span className="font-bold">Mail och sociala medier:    </span> <br/> 
+                                        <a href="mailto:tjooo@musicforpennies.se">tjooo@musicforpennies.se</a> 
+                                        <br/>
+                                        <a href="https://www.facebook.com/musicforpennies">Facebook</a>
+                                        <br/>
+                                        <a href="https://www.instagram.com/musicforpennies">Instagram</a>
+                                    </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="relative col-span-full md:col-start-7 md:col-end-13">
+                        <div className="max-w-full md:max-w-[520px]">
+                            <p className="text-[1rem] lg:text-[1.1875rem] tracking-[-0.02em] 2xl:text-lg transition duration-500 delay-200 pt-8">
+                                Stationen: <a href="mailto:kfstationen@gmail.com">kfstationen@gmail.com</a> 
+                                <br/>
+                                K&K Records / KF 019: <a href="mailto:tjena@kkrecords.se">tjena@kkrecords.se</a> 
+                                <br/>
+                                Döfisk: <a href="mailto:tjooo@musicforpennies.se">tjooo@musicforpennies.se</a>
+                                <br/>
+                                Indiedepartementet: <a href="mailto:tjooo@musicforpennies.se">tjooo@musicforpennies.se</a>
+                                <br/>
+                                Örebro Hardcore: <a href="mailto:tjooo@musicforpennies.se">tjooo@musicforpennies.se</a>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+	</div>
+</section>
+
       </main>
   );
 }
