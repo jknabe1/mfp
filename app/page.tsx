@@ -14,7 +14,7 @@ export default function Home() {
           <div className="text-center text-gray-500 dark:text-gray-400">
               <img className="mx-auto mb-4 w-36 h-36 rounded-full border-2 border-black" src="/media/stationen.jpg" alt="Stationen"/>
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
-                  <a href="https://www.facebook.com/kfstationen">Stationen</a>
+                  <a href="https://www.facebook.com/kfstationen">KF Stationen</a>
               </h3>
               <ul className="flex justify-center mt-4 space-x-4">
                   <li>
@@ -30,7 +30,7 @@ export default function Home() {
                     </a>
                   </li>
                   <li className="flex justify-cente space-x-4">
-                        <a href="https://www.facebook.com/klubbmono" className="text-[#39569c] dark:hover:text-gray"> 
+                        <a href="https://www.facebook.com/kfstationen" className="text-[#39569c] dark:hover:text-gray"> 
                         <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                         <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
                         </svg>
@@ -67,12 +67,12 @@ export default function Home() {
               </h3>
               <ul className="flex justify-center mt-4 space-x-4">
                   <li>
-                      <a href="" className="text-[#39569c] dark:hover:text-gray">
+                      <a href="https://www.facebook.com/Indiedepartementet" className="text-[#39569c] dark:hover:text-gray">
                           <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
                       </a>
                   </li>
                   <li className="flex justify-cente space-x-4">
-                        <a href="https://www.facebook.com/klubbmono" className="text-[#39569c] dark:hover:text-gray"> 
+                        <a href="https://www.instagram.com/Indiedepartementet" className="text-[#39569c] dark:hover:text-gray"> 
                         <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                         <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
                         </svg>
@@ -83,7 +83,7 @@ export default function Home() {
           <div className="text-center text-gray-500 dark:text-gray-400">
               <img className="mx-auto mb-4 w-36 h-36 rounded-full border-2 border-black" src="/media/dopfisk.jpg" alt="Döfisk"/>
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
-                  <a href="https://www.facebook.com/profile.php?id=61563532603704">Döfisk</a>
+                  <a href="https://www.facebook.com/profile.php?id=61563532603704">DöFisk Skivor</a>
               </h3>
               <ul className="flex justify-center mt-4 space-x-4">
                   <li>
@@ -101,9 +101,9 @@ export default function Home() {
               </ul>
           </div>
           <div className="text-center text-gray-500 dark:text-gray-400">
-              <img className="mx-auto mb-4 w-36 h-36 rounded-full border-2 border-black" src="/media/BATTREKF.png" alt="Hardcore"/>
+              <img className="mx-auto mb-4 w-36 h-36 rounded-full border-2 border-black" src="/media/BATTREKF.png" alt="KF 019"/>
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
-                  <a href="https://www.kf019.se/">Kulturföreningen 019</a>
+                  <a href="https://www.kf019.se/">KF-019</a>
               </h3>
               <ul className="flex justify-center mt-4 space-x-4">
                   <li>
@@ -228,7 +228,7 @@ export default function Home() {
                     </a>
                   </li>
                   <li className="flex justify-cente space-x-4">
-                        <a href="https://www.facebook.com/ungopunk" className="text-[#39569c] dark:hover:text-gray"> 
+                        <a href="https://www.instagram.com/ungopunk" className="text-[#39569c] dark:hover:text-gray"> 
                         <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                         <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
                         </svg>
@@ -245,7 +245,7 @@ export default function Home() {
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Kontakta oss</h2>
       </div> 		
       <div className="grid grid-cols-12">
-                        <div className="relative col-span-full row-start-1 row-end-1 min-h-[150px] md:min-h-0 md:col-start-1 md:col-end-7">
+                        <div className="relative col-span-full row-start-1 row-end-1 md:min-h-0 md:col-start-1 md:col-end-7">
                             <div className="inset-0 overflow-hidden">
                                 <div className="inset-0 transition-transform duration-300 ease-bouncy">
                                     <h1>
@@ -262,7 +262,7 @@ export default function Home() {
                     <div className="relative col-span-full md:col-start-7 md:col-end-13">
                         <div className="max-w-full md:max-w-[520px]">
                         <h1>
-                                    <span className="font-bold">Mail</span> <br/> 
+                                    <span className="font-bold">Mail:</span> <br/> 
                                         <a href="mailto:tjooo@musicforpennies.se">tjooo@musicforpennies.se</a> 
                                         <br/>
                                         <ul className="flex justify-center mt-4 space-x-4">
