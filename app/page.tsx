@@ -267,7 +267,7 @@ export default function Home() {
 	    <div className="text-center text-gray-500 dark:text-gray-400">
                 <img className="mx-auto mb-4 w-36 h-36 rounded-full border-2 border-black" src="/media/50.jpg"  alt="U&?"/>
                 <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
-                    <a href="https://www.facebook.com/klubbhomo">Definitivt 50 Spänn </a>
+                    <a href="https://www.facebook.com/definitivt50spann">Definitivt 50 Spänn </a>
                 </h3>
                 <ul className="flex justify-center mt-4 space-x-4">
                   <li>
