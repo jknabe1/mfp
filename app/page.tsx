@@ -20,7 +20,12 @@ function IgIcon() {
   );
 }
 
-function SocialLinks({ facebook, instagram }) {
+type SocialLinksProps = {
+  facebook?: string;
+  instagram?: string;
+};
+
+function SocialLinks({ facebook, instagram }: SocialLinksProps) {
   return (
     <ul className="flex justify-center mt-4 space-x-4">
       {facebook && (
@@ -41,7 +46,15 @@ function SocialLinks({ facebook, instagram }) {
   );
 }
 
-function Card({ item }) {
+type CardItem = {
+  name: string;
+  img: string;
+  url?: string;
+  facebook?: string;
+  instagram?: string;
+};
+
+function Card({ item }: { item: CardItem }) {
   return (
     <div className="text-center text-gray-500 dark:text-gray-400">
       <img
@@ -57,7 +70,7 @@ function Card({ item }) {
   );
 }
 
-function SectionHeading({ children }) {
+function SectionHeading({ children }: { children: React.ReactNode }) {
   return (
     <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16 border-b-2 border-gray-900">
       <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">{children}</h2>
