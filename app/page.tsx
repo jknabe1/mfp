@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
 const FB_PATH =
   "M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z";
 
@@ -30,16 +33,16 @@ function SocialLinks({ facebook, instagram }: SocialLinksProps) {
     <ul className="flex justify-center mt-4 space-x-4">
       {facebook && (
         <li>
-          <a href={facebook} className="text-[#39569c]" aria-label="Facebook">
+          <Link href={facebook} className="text-[#39569c]" aria-label="Facebook">
             <FbIcon />
-          </a>
+          </Link>
         </li>
       )}
       {instagram && (
         <li>
-          <a href={instagram} className="text-[#39569c]" aria-label="Instagram">
+          <Link href={instagram} className="text-[#39569c]" aria-label="Instagram">
             <IgIcon />
-          </a>
+          </Link>
         </li>
       )}
     </ul>
@@ -63,7 +66,7 @@ function Card({ item }: { item: CardItem }) {
         alt={item.name}
       />
       <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900">
-        {item.url ? <a href={item.url}>{item.name}</a> : item.name}
+        {item.url ? <Link href={item.url}>{item.name}</Link> : item.name}
       </h3>
       <SocialLinks facebook={item.facebook} instagram={item.instagram} />
     </div>
@@ -73,7 +76,7 @@ function Card({ item }: { item: CardItem }) {
 function SectionHeading({ children }: { children: React.ReactNode }) {
   return (
     <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16 border-b-2 border-gray-900">
-      <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">{children}</h2>
+      <h2 className="mb-4  text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900">{children}</h2>
     </div>
   );
 }
@@ -177,23 +180,29 @@ export default function Home() {
       {/* Logga + Vi är Music For Pennies */}
       <section className="bg-white">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-          <img
+          <Link href="https://www.facebook.com/musicforpennies/">
+          <Image
             className="mx-auto mb-4"
             src="/media/music_for_pennies_logga.png"
             alt="Music For Pennies"
+            width={900}
+            height={300}
           />
+          </Link>
 
-          <div className="mx-auto mt-12 max-w-screen-md">
-            <h2 className="mb-6 text-4xl tracking-tight font-extrabold text-gray-900">
+          <div className="mx-auto mt-12 max-w-screen-xl">
+            <h2 className="text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 mx-auto mb-8 max-w-screen-sm lg:mb-16 border-b-2 border-gray-900">
               Vi är Music For Pennies
             </h2>
-            <a href="https://www.instagram.com/musicforpennies">
-              <img
+            <Link href="https://www.instagram.com/musicforpennies">
+              <Image
                 className="mx-auto mb-6 w-full max-w-xl rounded-lg"
                 src="/media/MFP_banner.jpg"
                 alt="Vi är Music For Pennies"
+                width={900}
+                height={300}
               />
-            </a>
+            </Link>
             <p className="mb-4 text-lg text-gray-700">
               Music For Pennies är en förening där föreningar förenas och där kreativitet och
               gemenskap står i fokus. Vi arbetar för en levande, alternativ musikscen i Örebro.
@@ -204,19 +213,20 @@ export default function Home() {
             </p>
             <p className="mb-2 text-gray-700">
               Läs reportage om MFP i NA{" "}
-              <a
+              <Link
                 className="underline"
                 href="https://gantrack1.com/t/l/10237410/1_NDk2NDcwNDU1NjM/"
               >
                 här
-              </a>{" "}
+              </Link>
+              {" "}
               eller{" "}
-              <a
+              <Link   
                 className="underline"
                 href="https://gantrack1.com/t/l/10237411/1_NDk2NDcwNDU1NjM/"
               >
                 här
-              </a>
+              </Link>
               .
             </p>
             <SocialLinks
@@ -268,7 +278,7 @@ export default function Home() {
               <div className="max-w-full md:max-w-[520px]">
                 <h1>
                   <span className="font-bold">Mail:</span> <br />
-                  <a href="mailto:tjooo@musicforpennies.se">tjooo@musicforpennies.se</a>
+                  <Link href="mailto:tjooo@musicforpennies.se">tjooo@musicforpennies.se</Link>
                 </h1>
                 <SocialLinks
                   facebook="https://www.facebook.com/musicforpennies"
